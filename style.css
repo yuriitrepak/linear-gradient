@@ -1,0 +1,84 @@
+body {
+	min-height: 700px;
+	background-image: linear-gradient(blue, yellow);
+}
+
+.shuriken-box {
+	width: 630px;
+	height: 525px;
+	background-color: lightgreen;
+	margin: 50px auto;
+	box-shadow: 10px 15px 2px 0 #383A3C;
+	border-radius: 5px;
+}
+
+.shuriken {
+	height: 100%;
+	background-image: 
+		linear-gradient(135deg, #E8E822 25px, transparent 25px),
+		linear-gradient(225deg, #E8E822 25px, transparent 25px),
+		linear-gradient(315deg, #E8E822 25px, transparent 25px),
+		linear-gradient(45deg, #E8E822 25px, transparent 25px), 
+		linear-gradient(45deg, #8FB6F9 25px, transparent 25px),
+		linear-gradient(225deg, #8FB6F9 25px, transparent 25px);
+	background-position: 
+		35px 70px,
+		-70px 35px,
+		-35px -70px,
+		70px -35px,
+		35px -35px,
+		-35px 35px;
+	background-size: 105px 105px;
+	background-repeat: repeat;	
+}
+
+.flags {
+	margin-top: 50px;
+	height: 250px;
+	text-align: center;
+}
+
+.flag {
+	width: 250px;
+	height: 200px;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.logo {
+	height: 150px;
+	color: white;
+}
+
+.name {
+	border: 1ps solid red;
+	padding-top: 5px;
+	font-size: 30px;
+	color: blue;
+}
+
+.logo1 {
+	background-image: 
+		linear-gradient(blue 50%, yellow 50%);
+	box-shadow: 4px 4px 2px 0 rgb(49, 50, 52, 0.5);	
+}
+
+.logo2 {
+	background-image: 
+		linear-gradient(to right, #009b48 33%, #ffffff 33%, #ffffff 66%, #ff7900 66%);
+	box-shadow: 4px 4px 2px 0 rgb(49, 50, 52, 0.5);
+}
+
+.logo3 {
+	background-image: 
+		linear-gradient(45deg, #ce1126 43%, #ffffff 43%, #ffffff 46%, #000000 46%, #000000 60%, 
+			#ffffff 60%, #ffffff 63%, #ce1126 63%);
+	box-shadow: 4px 4px 2px 0 rgb(49, 50, 52, 0.5);	
+}
+
+.logo4 {
+	background-image: 
+		linear-gradient(to right, #ffffff 35%, transparent 35%),		
+		linear-gradient(#fc3d32 50%, #007e3a 50%);
+	box-shadow: 4px 4px 2px 0 rgb(49, 50, 52, 0.5);	
+}
